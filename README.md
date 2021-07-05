@@ -25,3 +25,4 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 用户名：746371722@qq.com
 密码：123456
+ https://liangwu123.github.io/b-test/
