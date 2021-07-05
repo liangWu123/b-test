@@ -1,0 +1,66 @@
+.home {
+    .menu-list {
+        width: 180px;
+        position: fixed;
+        height: 100%;
+        transition: all 2s;
+        .ant-menu{
+            height: 100%;
+        }
+       
+
+    }
+    .contenter{
+        margin-left: 180px;
+        transition: all .3s;
+        .mail-app{
+            height: 50px;
+            line-height: 50px;
+            box-sizing: border-box;
+            padding: 0px 10px;
+            position: relative;
+
+        
+            border-bottom: #eee solid 1px;
+           
+            .ant-btn{
+                display: inline-block;
+              
+            }
+            .breadcrumb{
+                display: inline-block;
+                padding-left: 10px;
+            }
+            .uesr-info{
+                
+                margin-right: 20px;
+                padding: 0 20px;
+                cursor: pointer;
+                position: absolute;
+                right: 0;
+                top: 0;
+                z-index: 99;
+                :nth-child(2){
+                    display: none;
+                }
+               
+                &:hover{
+                    :nth-child(2){
+                        display: block;
+                        background: #eee;
+                        font-weight: 700;
+                        padding:0 0 0 5px;
+                       
+                        
+                    }
+                }
+            }
+        }
+        
+
+    }
+    .changeC{
+        margin-left: 80px;
+        transition: all .3s;
+    }
+}
